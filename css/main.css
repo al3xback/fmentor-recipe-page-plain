@@ -71,6 +71,7 @@ th {
 }
 
 td {
+	width: 50%;
 	font-weight: 700;
 }
 
@@ -175,9 +176,8 @@ main > .container {
 
 .card {
 	gap: 4rem;
-	width: 100%;
 	background-color: #fff;
-	margin: 0 0 6rem;
+	margin: 0 0 7rem;
 }
 
 .card__image img {
@@ -192,11 +192,11 @@ main > .container {
 
 @media (min-width: 48em) {
 	.card {
+		width: 100%;
 		max-width: 73.6rem;
 		padding: 4rem;
 		margin: 12rem 0 18rem;
 		border-radius: 24px;
-		overflow: hidden;
 	}
 
 	.card__content {
@@ -236,6 +236,12 @@ section {
 .section-nutrition {
 	padding-top: 3.2rem;
 	border-top: 1px solid #e4ded8;
+}
+
+@media (min-width: 48em) {
+	.section-preparation {
+		padding: 2.8rem;
+	}
 }
 
 /* ========================= */
